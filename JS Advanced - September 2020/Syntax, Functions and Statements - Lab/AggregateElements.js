@@ -12,9 +12,10 @@ function solve(arr){
     }
     
     console.log(arrSum);
-    console.log(inverseValuesSum.toFixed(4));
+    console.log(inverseValuesSum);
     console.log(arr.join(''));
 }
 
 solve([1, 2, 3]);
 solve([2, 4, 8, 16]);
+
