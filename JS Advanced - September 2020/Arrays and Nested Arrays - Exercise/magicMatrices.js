@@ -12,6 +12,7 @@ function solve(arr) {
  
         return Array.from(new Set(arr)).length === 1;
     }
+    
 }
 
 solve(
