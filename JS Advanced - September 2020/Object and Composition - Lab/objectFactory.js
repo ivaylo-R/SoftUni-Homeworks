@@ -5,8 +5,8 @@ function factory(library,orders){
     function compose(order){
         const result = Object.assign({},order.template)
 
-        for (const part in order.parts) {
-            result[template][part]=library[part];
+        for (const part of order.parts) {
+            result[part]=library[part];
         }
 
         return result;
